@@ -20,6 +20,8 @@ on:
       - '[0-9]+.[0-9]+'
     paths: *trigger-paths
 
+  workflow_dispatch:
+
 jobs:
   test:
     name: Run tests
